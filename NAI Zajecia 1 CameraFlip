@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 		cv::Mat obraz;
 		cv::Mat obraz2;
 		if (cap.read(obraz)) {
-			cv::flip(obraz, obraz, +1);
+			cv::flip(obraz, obraz2, +1);
 
 			cv::imshow("Okienko1", obraz);
 			cv::imshow("Okienko2", obraz2);
